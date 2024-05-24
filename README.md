@@ -1,4 +1,4 @@
-Pour lance le projet :
+Pour lancer le projet :
 > npm run start:postgres   
 
 Pour lancer les tests :

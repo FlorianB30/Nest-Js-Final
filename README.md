@@ -4,7 +4,9 @@ Pour lancer le projet :
 Pour lancer les tests :
 > npm run test:e2e:postgres
 
-Prérequis : Lancer Docker avant d'exécuter les commandes npm 
+Prérequis : 
+> npm ci
+- Lancer Docker avant d'exécuter les commandes npm 
 
 Sous windows modifier les lignes du package.json :
 - "test:e2e:postgres": "SET DBMS=postgres && docker-compose --env-file ./.env -f ./docker/docker-compose-postgres.yml up -d && jest --config ./test/jest-e2e.json",
